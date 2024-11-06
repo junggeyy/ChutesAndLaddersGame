@@ -13,6 +13,7 @@ This repository contains a C implementation of a Chutes & Ladders game. The game
    * B: Moves the player back to the previous Haven (H) or to the start if none exists.
    * F: Moves the player forward to the next Haven (H) or stays in place if none exists.
 6. Havens (H): Special locations that act as checkpoints on the board.
+
 **Files**
 * main.c: Contains the main game logic, including player turns and game flow.
 * README.md: Documentation for the repository.
