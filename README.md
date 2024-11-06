@@ -4,7 +4,7 @@ This repository contains a C implementation of a Chutes & Ladders game. The game
 **Game Rules**
 1. Players: This is a two-player game.
 2. Objective: The first player to reach or exceed the end of the board wins.
-3. Movement: Each player rolls a die (1-6) to move forward on the board.
+3. Movement: Each player rolls a die (1-6), by entering 'r', to move forward on the board.
 4. Chutes & Ladders:
    * Landing on a chute ('a' to 'm') moves the player back.
    * Landing on a ladder ('o' to 'z') moves the player forward.
