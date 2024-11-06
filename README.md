@@ -15,7 +15,6 @@ This repository contains a C implementation of a Chutes & Ladders game. The game
 6. Havens (H): Special locations that act as checkpoints on the board.
 **Files**
 * main.c: Contains the main game logic, including player turns and game flow.
-* board.txt: Represents the initial board setup. This file is read at the beginning of the game.
 * README.md: Documentation for the repository.
 
 **Getting Started**
