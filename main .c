@@ -68,6 +68,13 @@ void printBoard(char* board, char* p1, char* p2, FILE* fp) {
 }
 
 char* move(char* current, char* other, int turnNum, char* board) {
+	char roll;
+	do {
+		printf("\nPlayer %d, enter r to roll the die: ", turnNum);
+		scanf(" %c", &roll);
+		if ((roll != 'r') && (roll != 'R'))
+		printf("Invalid input. Please press 'r' or 'R' to roll: ");
+	} while ((roll != 'r') && (roll != 'R'));
 	int die = (rand() % 6) + 1;
 	current = current + die;
 	printf("\nPlayer %d moves %d to %d", turnNum, die, (int)(current - board));
