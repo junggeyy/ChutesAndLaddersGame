@@ -1,4 +1,4 @@
-# Chutes And Ladders Game 🪜🪂
+# Chutes And Ladders Game 🪜🛝
 This repository contains a C implementation of a Chutes & Ladders game. The game is designed as a command-line application where two players roll a die and move across a board with chutes (sliding players down) and ladders (lifting players up). Special board features, such as "Havens" and specific move-back and move-forward rules, enhance the gameplay.
 
 **Game Rules**
